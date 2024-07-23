@@ -1,4 +1,4 @@
-# tuned-gui For Ubuntu LTS 24.04
+# tuneD-gui For Ubuntu LTS 24.04
 
 ## Step 1
 
