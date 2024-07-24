@@ -49,4 +49,4 @@ tuned-adm active
 *Coming soon.*
 
 - Why does this download the launcher graphic every time it runs?  \
-*This was done during developement, it's going to be removed soon. But leave it as is is fine.*
+*This was done during developement, it's going to be removed soon. But leave it as it's fine for now.*
