@@ -22,7 +22,7 @@ import urllib.request
 # Configure logging
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
-# Stop, disable, and mask the power-profile-daemon service
+# Stop, disable, and mask the power-profile-daemon service 
 def manage_power_profile_daemon():
     try:
         subprocess.run(["systemctl", "stop", "power-profiles-daemon.service"], check=True)
