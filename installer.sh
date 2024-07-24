@@ -22,18 +22,6 @@ import urllib.request
 # Configure logging
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
-# Stop, disable, and mask the power-profile-daemon service 
-def manage_power_profile_daemon():
-    try:
-        subprocess.run(["systemctl", "stop", "power-profiles-daemon.service"], check=True)
-        subprocess.run(["systemctl", "disable", "power-profiles-daemon.service"], check=True)
-        subprocess.run(["systemctl", "mask", "power-profiles-daemon.service"], check=True)
-        logging.info("power-profiles-daemon service stopped, disabled, and masked successfully.")
-    except subprocess.CalledProcessError as e:
-        logging.error(f"Failed to manage power-profiles-daemon service: {e}")
-
-manage_power_profile_daemon()
-
 PROFILES_PER_PAGE = 10
 ICON_URL = "https://raw.githubusercontent.com/ctsdownloads/tuned-test/main/images/logo_white_targeted.png"
 ICON_PATH = os.path.expanduser("~/.local/share/icons/tuned_logo.png")  # Path to save the downloaded icon
