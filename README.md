@@ -7,7 +7,7 @@
 
 - Reboot
 
-## Step 2 (All Intel chips) 
+## Step 2 
 
 - Open a terminal, past in the following, press enter.
 
