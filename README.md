@@ -1,4 +1,5 @@
 # tuneD-gui For Ubuntu LTS 24.04
+## At this time. it's only working with Intel EPP package installed. Failure to do so, it will not function correctly.
 
 ## Step 1 (Intel® Core™ Ultra Series 1) 
 
