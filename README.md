@@ -4,7 +4,7 @@
 
 #### (Ubuntu with Intel Core Ultra Series 1) 
 
-- Download, extract, install deb. https://www.intel.com/content/www/us/en/download/819707/epp-tuning-package-for-linux-on-intel-core-ultra-mobile-processor.html
+- Download, extract, browse into the directory, install deb by right clicking onto the deb package and installing with the Ubuntu app center. https://www.intel.com/content/www/us/en/download/819707/epp-tuning-package-for-linux-on-intel-core-ultra-mobile-processor.html
 
 - Reboot
 
@@ -103,3 +103,7 @@ tuned-adm active
 
 - Why does this download the launcher graphic every time it runs?  \
 >This was done during developement, it's going to be removed soon. But leave it as it's fine for now. This allows us to update the graphics remotely if needed. Besides, after it's installed, it will load the cached graphic if there is no internet acccess.
+
+- What do I do with the Intel zipped folder?
+>For the Fedora 40 installers, the zipped folder is handled for you so long as it is downloaded into the tuned-install directory that was suggested to be installed into your home direcctory previously.
+>For Ubuntu 24.04 users, download it into home. Extract it. Browse inside of it, locate the deb package. Install the deb package. Follow the rest of the guide above.
