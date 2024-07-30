@@ -1,7 +1,6 @@
 # tuneD-gui For Ubuntu LTS 24.04
-## At this time. it's only working with Intel EPP package installed. Failure to do so, it will not function correctly.
 
-## Step 1 (Intel® Core™ Ultra Series 1) 
+## Step 1 (Intel Core Ultra Series 1) 
 
 - Download, extract, install deb. https://www.intel.com/content/www/us/en/download/819707/epp-tuning-package-for-linux-on-intel-core-ultra-mobile-processor.html
 
@@ -12,18 +11,38 @@
 - Open a terminal, past in the following, press enter.
 
   ```
-  sudo apt install curl -y && curl -sSL "https://raw.githubusercontent.com/FrameworkComputer/tuned-gui/main/installer.sh" | bash
+  sudo apt install curl -y && curl https://raw.githubusercontent.com/FrameworkComputer/tuned-gui/main/Ultra-Series-1.sh | bash
   ```
 
 - Reboot
 
+<br/>
+<br/>
+
+---------------------------------------
+
+## Step 1 (Intel 11th, 12th and 13th Gen) 
+
+- Download, extract, install deb. https://www.intel.com/content/www/us/en/download/819707/epp-tuning-package-for-linux-on-intel-core-ultra-mobile-processor.html
+
+- Reboot
+
+## Step 2 
+
+- Open a terminal, past in the following, press enter.
+
+  ```
+  sudo apt install curl -y && https://raw.githubusercontent.com/FrameworkComputer/tuned-gui/main/intel-13thGen.sh | bash
+  ```
+
+- Reboot
+
+
+<br/><br/>
 ![image](https://raw.githubusercontent.com/FrameworkComputer/tuned-gui/main/images/dark.png)
 
 ![image](https://raw.githubusercontent.com/FrameworkComputer/tuned-gui/main/images/light.png)
-
-<br/>
-<br/>
-
+<br/><br/> 
 
 ## FAQ
 
@@ -40,7 +59,7 @@
 ![image](https://raw.githubusercontent.com/FrameworkComputer/tuned-gui/main/images/tuned-gui.gif)
 
 - How do I know if this is working corrrectly?  \
-*Run the following in a terminal, make sure it matctches the profile you selected.*
+*Run the following in a terminal, make sure it matches the profile you selected.*
 
 ```
 tuned-adm active
