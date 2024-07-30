@@ -4,7 +4,7 @@
 
 # Install dependencies
 sudo systemctl stop power-profiles-daemon && sudo systemctl disable power-profiles-daemon && sudo systemctl mask power-profiles-daemon && unzip 814712_MTL_TuneD_Static_Profile_RN_Rev1p2.zip && unzip pkg.OPT.EPPprofile-1.05.240206.1-x86_64.zip && 
-cd pkg.OPT.EPPprofile-1.05.240206.1-x86_64 && curl -o deploy.sh https://raw.githubusercontent.com/ctsdownloads/testing/main/deploy.sh && sudo bash deploy.sh && sleep 2 && sudo dnf install -y python3-gobject python3-cairo gobject-introspection gtk3 libappindicator-gtk3
+cd pkg.OPT.EPPprofile-1.05.240206.1-x86_64 && curl -o deploy.sh https://raw.githubusercontent.com/FrameworkComputer/tuned-gui/main/deploy.sh && sudo bash deploy.sh && sleep 2 && sudo dnf install -y python3-gobject python3-cairo gobject-introspection gtk3 libappindicator-gtk3
 
 # Create directory for the script
 mkdir -p ~/.local/bin
