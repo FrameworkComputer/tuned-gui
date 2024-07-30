@@ -1,14 +1,12 @@
-# tuneD-gui For Ubuntu LTS 24.04
+# tuneD-gui 
 
-## Ubuntu 24.04 and Intel (AMD use PPD defaults that are provided during the Ubuntu Install)
+### Ubuntu 24.04 and Intel (AMD uses PPD defaults that is provided during the Ubuntu Install)
 
-### Step 1 (Intel Core Ultra Series 1) 
+#### (Ubuntu with Intel Core Ultra Series 1) 
 
 - Download, extract, install deb. https://www.intel.com/content/www/us/en/download/819707/epp-tuning-package-for-linux-on-intel-core-ultra-mobile-processor.html
 
 - Reboot
-
-### Step 2 
 
 - Open a terminal, past in the following, press enter.
 
@@ -21,9 +19,8 @@
 <br/>
 <br/>
 
----------------------------------------
 
-### Step 1 (Intel 11th, 12th and 13th Gen) 
+#### (Ubuntu with Intel 11th, 12th and 13th Gen) 
 
 - Open a terminal, past in the following, press enter.
 
@@ -33,6 +30,46 @@
 
 - Reboot
 
+----------------------------------------
+
+<br/>
+<br/>
+
+### Fedora 40 and Intel (AMD uses PPD defaults that is provided during the Fedora Install)
+
+
+#### (Fedora with Intel Core Ultra Series 1) 
+
+- Create a directory in your home directory called tuned-install.
+
+- Install the GNOME Shell extension called AppIndicator/KStatusNotifierItem support using the Extension Manager. (If it's not installed, you can install it from the software store as Extension Manager)
+  ![image](https://raw.githubusercontent.com/FrameworkComputer/tuned-gui/main/images/extension-manager.png)
+
+- Download zipped folder https://www.intel.com/content/www/us/en/download/819707/epp-tuning-package-for-linux-on-intel-core-ultra-mobile-processor.html
+
+- Open a terminal, past in the following, press enter.
+
+  ```
+  sudo apt install curl -y && sudo apt install curl -y && https://raw.githubusercontent.com/FrameworkComputer/tuned-gui/main/Ultra-Series-1-Fedora.sh | bash
+  ```
+
+- Reboot
+
+<br/>
+<br/>
+
+
+#### (Fedora with Intel 11th, 12th and 13th Gen) 
+
+- Open a terminal, past in the following, press enter.
+
+  ```
+  sudo apt install curl -y && sudo apt install curl -y && https://raw.githubusercontent.com/FrameworkComputer/tuned-gui/main/intel-13thGen-Fedora.sh | bash
+  ```
+
+- Reboot
+  
+--------------------------------------
 
 <br/><br/>
 ![image](https://raw.githubusercontent.com/FrameworkComputer/tuned-gui/main/images/dark.png)
