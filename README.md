@@ -1,5 +1,8 @@
 # tuneD-gui 
 
+<br/>
+<br/>
+
 ### Ubuntu 24.04 and Intel (AMD uses PPD defaults that is provided during the Ubuntu Install)
 
 #### (Ubuntu with Intel Core Ultra Series 1) 
