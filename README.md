@@ -69,4 +69,4 @@ tuned-adm active
 >Coming soon.
 
 - Why does this download the launcher graphic every time it runs?  \
->This was done during developement, it's going to be removed soon. But leave it as it's fine for now.
+>This was done during developement, it's going to be removed soon. But leave it as it's fine for now. This allows us to update the graphics remotely if needed. Besides, after it's installed, it will load the cached graphic if there is no internet acccess.
