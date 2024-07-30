@@ -23,12 +23,6 @@
 
 ## Step 1 (Intel 11th, 12th and 13th Gen) 
 
-- Download, extract, install deb. https://www.intel.com/content/www/us/en/download/819707/epp-tuning-package-for-linux-on-intel-core-ultra-mobile-processor.html
-
-- Reboot
-
-## Step 2 
-
 - Open a terminal, past in the following, press enter.
 
   ```
