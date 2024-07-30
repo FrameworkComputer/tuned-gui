@@ -1,5 +1,5 @@
 # tuneD-gui 
-#### This is a GUI tool developed to utilize tunedD power daemon with a simple to use GUI for Ubuntu 24.04 and Fedora 40. Other distros will want to installed tuneD and use tined-adm --help.
+#### This is a GUI tool developed to utilize tunedD power daemon with a simple to use GUI for Ubuntu 24.04 and Fedora 40. Other distros will want to installed tuneD and use tuned-adm --help.
 
 <br/>
 <br/>
