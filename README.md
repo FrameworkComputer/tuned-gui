@@ -1,12 +1,14 @@
 # tuneD-gui For Ubuntu LTS 24.04
 
-## Step 1 (Intel Core Ultra Series 1) 
+## Ubuntu 24.04 and Intel (AMD use PPD defaults that are provided during the Ubuntu Install)
+
+### Step 1 (Intel Core Ultra Series 1) 
 
 - Download, extract, install deb. https://www.intel.com/content/www/us/en/download/819707/epp-tuning-package-for-linux-on-intel-core-ultra-mobile-processor.html
 
 - Reboot
 
-## Step 2 
+### Step 2 
 
 - Open a terminal, past in the following, press enter.
 
@@ -21,7 +23,7 @@
 
 ---------------------------------------
 
-## Step 1 (Intel 11th, 12th and 13th Gen) 
+### Step 1 (Intel 11th, 12th and 13th Gen) 
 
 - Open a terminal, past in the following, press enter.
 
