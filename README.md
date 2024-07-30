@@ -109,5 +109,5 @@ tuned-adm active
 >This was done during developement, it's going to be removed soon. But leave it as it's fine for now. This allows us to update the graphics remotely if needed. Besides, after it's installed, it will load the cached graphic if there is no internet acccess.
 
 - What do I do with the Intel zipped folder?
->For the Fedora 40 installers, the zipped folder is handled for you so long as it is downloaded into the tuned-install directory that was suggested to be installed into your home direcctory previously.
+>For the Fedora 40 installers, the zipped folder is handled for you so long as it is downloaded into the tuned-install directory that was suggested to be created and placed into your home directory previously.
 >For Ubuntu 24.04 users, download it into home. Extract it. Browse inside of it, locate the deb package. Install the deb package. Follow the rest of the guide above.
