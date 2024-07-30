@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# IMPORTANT: Create in your file manager or mkdir tuned-install, download 814712_MTL_TuneD_Static_Profile_RN_Rev1p2.zip into that directory first. For Widget to work on Fedora, you must install "AppIndicator/KStatusNotifierItem support" GNOME shell extension.
+# IMPORTANT: For Widget to work on Fedora, you must install "AppIndicator/KStatusNotifierItem support" GNOME shell extension.
 
 # Install dependencies
 sudo systemctl stop power-profiles-daemon && sudo systemctl disable power-profiles-daemon && sudo systemctl mask power-profiles-daemon && sleep 2 && sudo dnf install -y python3-gobject python3-cairo gobject-introspection gtk3 libappindicator-gtk3
