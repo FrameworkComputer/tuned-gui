@@ -1,8 +1,7 @@
 #!/bin/bash
 
 # Install dependencies
-sudo apt update
-sudo apt install -y python3-gi python3-gi-cairo gir1.2-gtk-3.0 gir1.2-appindicator3-0.1 tuned
+sudo systemctl stop power-profiles-daemon && sudo systemctl disable power-profiles-daemon && sudo systemctl mask power-profiles-daemon && sudo apt update && sudo apt install -y python3-gi python3-gi-cairo gir1.2-gtk-3.0 gir1.2-appindicator3-0.1 tuned
 
 # Create directory for the script
 mkdir -p ~/.local/bin
@@ -229,4 +228,3 @@ Comment=TuneD profile switcher indicator
 EOF
 
 echo "Installation complete. The TuneD Indicator will start automatically on your next login."
-echo "To start it now without logging out, run: python3 ~/.local/bin/tuned_indicator.py"
