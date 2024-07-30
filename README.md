@@ -54,7 +54,7 @@
 - Open a terminal, past in the following, press enter.
 
   ```
-  sudo apt install curl -y && sudo apt install curl -y && https://raw.githubusercontent.com/FrameworkComputer/tuned-gui/main/Ultra-Series-1-Fedora.sh | bash
+  sudo dnf install curl -y && sudo apt install curl -y && https://raw.githubusercontent.com/FrameworkComputer/tuned-gui/main/Ultra-Series-1-Fedora.sh | bash
   ```
 
 - Reboot
@@ -68,7 +68,7 @@
 - Open a terminal, past in the following, press enter.
 
   ```
-  sudo apt install curl -y && sudo apt install curl -y && https://raw.githubusercontent.com/FrameworkComputer/tuned-gui/main/intel-13thGen-Fedora.sh | bash
+  sudo dnf install curl -y && sudo apt install curl -y && https://raw.githubusercontent.com/FrameworkComputer/tuned-gui/main/intel-13thGen-Fedora.sh | bash
   ```
 
 - Reboot
