@@ -3,7 +3,7 @@
 # IMPORTANT: For Widget to work on Fedora, you must install "AppIndicator/KStatusNotifierItem support" GNOME shell extension.
 
 # Install dependencies
-sudo systemctl stop power-profiles-daemon && sudo systemctl disable power-profiles-daemon && sudo systemctl mask power-profiles-daemon && sleep 2 && sudo dnf install -y python3-gobject python3-cairo gobject-introspection gtk3 libappindicator-gtk3
+sudo systemctl stop power-profiles-daemon && sudo systemctl disable power-profiles-daemon && sudo systemctl mask power-profiles-daemon && sleep 2 && sudo dnf install -y python3-gobject python3-cairo gobject-introspection gtk3 libappindicator-gtk3 tuned
 
 # Create directory for the script
 mkdir -p ~/.local/bin
