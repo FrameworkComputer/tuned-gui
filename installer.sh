@@ -23,7 +23,7 @@ import urllib.request
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
 PROFILES_PER_PAGE = 10
-ICON_URL = "https://raw.githubusercontent.com/ctsdownloads/tuned-test/main/images/logo_white_targeted.png"
+ICON_URL = "https://raw.githubusercontent.com/FrameworkComputer/tuned-gui/main/images/logo_white_targeted.png"
 ICON_PATH = os.path.expanduser("~/.local/share/icons/tuned_logo.png")  # Path to save the downloaded icon
 
 class TunedIndicator:
