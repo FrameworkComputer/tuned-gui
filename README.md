@@ -47,26 +47,26 @@
 ## FAQ
 
 - What does this thing do, though?  \
-  *Using TuneD (a system tuning daemon), users can select the power profile that best fits their individual needs.*
+>Using tuneD (a system tuning daemon), users can select the power profile that best fits their individual needs.
 
 
 - Do I need to disable PPD (Power Profile Daemon) for GNOME?  \
-*Yes, instructions will be provided in the [Optimizing Ubuntu Battery Life](https://knowledgebase.frame.work/en_us/optimizing-ubuntu-battery-life-Sye_48Lg3) Knowledgebase article.*
+>Yes, both scripts do the heavy lifting for you - install, reboot and good to go.
 
 - How do I use this?  \
-*When installed and running on reboot, simply select the profile you wish to use.*  
+>When installed and running on reboot, simply select the profile you wish to use.
 
 ![image](https://raw.githubusercontent.com/FrameworkComputer/tuned-gui/main/images/tuned-gui.gif)
 
 - How do I know if this is working corrrectly?  \
-*Run the following in a terminal, make sure it matches the profile you selected.*
+>Run the following in a terminal, make sure it matches the profile you selected.
 
 ```
 tuned-adm active
 ```
   
 - What about dynamic tuning for tuneD?  \
-*Coming soon.*
+>Coming soon.
 
 - Why does this download the launcher graphic every time it runs?  \
-*This was done during developement, it's going to be removed soon. But leave it as it's fine for now.*
+>This was done during developement, it's going to be removed soon. But leave it as it's fine for now.
