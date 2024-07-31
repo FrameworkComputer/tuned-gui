@@ -8,17 +8,7 @@
 
 #### (Ubuntu with Intel Core Ultra Series 1) 
 
-- Download, extract, browse into the directory, install deb by right clicking onto the deb package and installing with the Ubuntu app center. https://www.intel.com/content/www/us/en/download/819707/epp-tuning-package-for-linux-on-intel-core-ultra-mobile-processor.html
-
-- Reboot
-
-- Open a terminal, past in the following, press enter.
-
-  ```
-  sudo apt install curl -y && curl https://raw.githubusercontent.com/FrameworkComputer/tuned-gui/main/Ultra-Series-1.sh | bash
-  ```
-
-- Reboot
+Coming soon
 
 <br/>
 <br/>
@@ -44,20 +34,7 @@
 
 #### (Fedora with Intel Core Ultra Series 1) 
 
-- Create a directory in your home directory called tuned-install.
-
-- Install the GNOME Shell extension called AppIndicator/KStatusNotifierItem support using the Extension Manager. (If it's not installed, you can install it from the software store as Extension Manager)
-  ![image](https://raw.githubusercontent.com/FrameworkComputer/tuned-gui/main/images/extension-manager.png)
-
-- Download zipped folder https://www.intel.com/content/www/us/en/download/819707/epp-tuning-package-for-linux-on-intel-core-ultra-mobile-processor.html
-
-- Open a terminal, past in the following, press enter.
-
-  ```
-  sudo dnf install curl -y && curl https://raw.githubusercontent.com/FrameworkComputer/tuned-gui/main/Ultra-Series-1-Fedora.sh | bash
-  ```
-
-- Reboot
+Coming soon
 
 <br/>
 <br/>
