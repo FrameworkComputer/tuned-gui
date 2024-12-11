@@ -1,4 +1,13 @@
 # tuneD-gui 
+
+## Largely replaced by the link below, as Fedora 41 uses tuned-ppd vs tuneD proper. 
+We recommend using this page instead to use addtional tuneD profiles on tuned-ppd.
+[Tuned PPD Customizer Script Usage Guide](https://github.com/FrameworkComputer/linux-docs/tree/main/Tuned-PPD-Customizer-Script#tuned-ppd-customizer-script-usage-guide)
+
+
+--------------------------------------------------------------------------------
+<br/>
+<br/>
 #### This is a GUI tool developed to utilize tunedD power daemon with a simple to use GUI for Ubuntu 24.04 and Fedora 40. Other distros will want to installed tuneD and use tuned-adm --help.
 
 <br/>
